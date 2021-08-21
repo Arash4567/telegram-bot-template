@@ -1,3 +1,5 @@
-from . import help
-from . import start
-from . import echo
+from .menu import dp
+from .purchase import dp
+
+__all__ = ["dp"]
+
