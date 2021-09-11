@@ -6,6 +6,6 @@ async def set_default_commands(dp):
         [
             types.BotCommand("start", "Boshlash"),
             types.BotCommand("menu", "Menu"),
-            types.BotCommand("menu", "Menu"),
+            types.BotCommand("items", "Tovarlar"),
         ]
     )
